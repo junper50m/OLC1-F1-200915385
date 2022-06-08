@@ -67,9 +67,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\Estilo.css" />
+    <Content Include="Css\templatemo_style.css" />
+    <Content Include="Image\templatemo_body.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_content.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_header.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_hr_divider.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_menu_box.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_menu_btn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_menu_btn_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_social_box.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\templatemo_social_box.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Index.aspx" />
+    <Content Include="Js\coda-slider.js" />
+    <Content Include="Js\jquery-1.2.6.js" />
+    <Content Include="Js\jquery.easing.1.3.js" />
+    <Content Include="Js\jquery.localscroll-1.2.5.js" />
+    <Content Include="Js\jquery.scrollTo-1.3.3.js" />
+    <Content Include="Js\jquery.serialScroll-1.2.1.js" />
+    <Content Include="Js\Script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +126,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
     <Folder Include="Logica\" />
   </ItemGroup>
   <PropertyGroup>
