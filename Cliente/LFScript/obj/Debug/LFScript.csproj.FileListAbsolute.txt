@@ -43,3 +43,6 @@ C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\templatemo_menu_b
 C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\templatemo_menu_btn_hover.png
 C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\templatemo_social_box.jpg
 C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\templatemo_social_box.png
+C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\cover.jpg
+C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\logo.png
+C:\GIT\Desarrollo\OLC1-F1-200915385\Cliente\LFScript\bin\Image\pattern.png

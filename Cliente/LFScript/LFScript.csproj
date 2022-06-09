@@ -67,8 +67,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\Css\app.min.css" />
+    <Content Include="Bootstrap\Css\bootstrap-table.min.css" />
+    <Content Include="Bootstrap\Css\buttons.bootstrap5.min.css" />
+    <Content Include="Bootstrap\Css\dataTables.bootstrap5.min.css" />
+    <Content Include="Bootstrap\Css\responsive.bootstrap5.min.css" />
+    <Content Include="Bootstrap\Css\vendor.min.css" />
+    <Content Include="Bootstrap\Js\analytics.js" />
+    <Content Include="Bootstrap\Js\app.js" />
+    <Content Include="Bootstrap\Js\app.min.js" />
+    <Content Include="Bootstrap\Js\bootstrap-table.min.js" />
+    <Content Include="Bootstrap\Js\bootstrap.bundle.min.js" />
+    <Content Include="Bootstrap\Js\buttons.bootstrap5.min.js" />
+    <Content Include="Bootstrap\Js\buttons.colVis.min.js" />
+    <Content Include="Bootstrap\Js\buttons.flash.min.js" />
+    <Content Include="Bootstrap\Js\buttons.html5.min.js" />
+    <Content Include="Bootstrap\Js\buttons.print.min.js" />
+    <Content Include="Bootstrap\Js\dataTables.bootstrap5.min.js" />
+    <Content Include="Bootstrap\Js\dataTables.buttons.min.js" />
+    <Content Include="Bootstrap\Js\dataTables.responsive.min.js" />
+    <Content Include="Bootstrap\Js\highlight.min.js" />
+    <Content Include="Bootstrap\Js\highlightjs.demo.js" />
+    <Content Include="Bootstrap\Js\jquery-ui.min.js" />
+    <Content Include="Bootstrap\Js\jquery.dataTables.min.js" />
+    <Content Include="Bootstrap\Js\jquery.min.js" />
+    <Content Include="Bootstrap\Js\js.cookie.min.js" />
+    <Content Include="Bootstrap\Js\pace.min.js" />
+    <Content Include="Bootstrap\Js\perfect-scrollbar.min.js" />
+    <Content Include="Bootstrap\Js\responsive.bootstrap5.min.js" />
+    <Content Include="Bootstrap\Js\sidebar-scrollspy.demo.js" />
+    <Content Include="Bootstrap\Js\table-plugins.demo.js" />
+    <Content Include="Bootstrap\Js\vendor.min.js" />
     <Content Include="Css\Estilo.css" />
     <Content Include="Css\templatemo_style.css" />
+    <Content Include="Image\cover.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\pattern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Image\templatemo_body.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -103,7 +143,6 @@
     <Content Include="Js\jquery.localscroll-1.2.5.js" />
     <Content Include="Js\jquery.scrollTo-1.3.3.js" />
     <Content Include="Js\jquery.serialScroll-1.2.1.js" />
-    <Content Include="Js\Script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
