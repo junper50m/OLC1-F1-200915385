@@ -52,7 +52,9 @@
  *	- The options margin, offset and over are ignored, if the target is not a jQuery object or a DOM element.
  *	- The option 'queue' won't be taken into account, if only 1 axis is given.
  */
-;(function( $ ){
+
+
+(function ($) {
 
 	var $scrollTo = $.scrollTo = function( target, duration, settings ){
 		$scrollTo.window().scrollTo( target, duration, settings );
@@ -147,4 +149,7 @@
 		return typeof val == 'object' ? val : { top:val, left:val };
 	};
 
-})( jQuery );// JavaScript Document
+})(jq1);// JavaScript Document
+
+
+

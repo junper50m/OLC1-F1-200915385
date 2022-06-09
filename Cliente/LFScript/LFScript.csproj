@@ -98,6 +98,7 @@
     <Content Include="Bootstrap\Js\sidebar-scrollspy.demo.js" />
     <Content Include="Bootstrap\Js\table-plugins.demo.js" />
     <Content Include="Bootstrap\Js\vendor.min.js" />
+    <Content Include="Css\coda-slider.css" />
     <Content Include="Css\Estilo.css" />
     <Content Include="Css\templatemo_style.css" />
     <Content Include="Image\cover.jpg">

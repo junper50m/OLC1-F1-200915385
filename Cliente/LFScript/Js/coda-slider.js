@@ -1,5 +1,5 @@
 // when the DOM is ready...
-$(document).ready(function () {
+jq1(document).ready(function () {
 
     var $panels = $('#slider .scrollContainer > div');
     var $container = $('#slider .scrollContainer');
@@ -92,17 +92,17 @@ $(document).ready(function () {
     // apply serialScroll to the slider - we chose this plugin because it 
     // supports// the indexed next and previous scroll along with hooking 
     // in to our navigation.
-    $('#slider').serialScroll(scrollOptions);
+    jq1('#slider').serialScroll(scrollOptions);
 
     // now apply localScroll to hook any other arbitrary links to trigger 
     // the effect
-    $.localScroll(scrollOptions);
+    jq1.localScroll(scrollOptions);
 
     // finally, if the URL has a hash, move the slider in to position, 
     // setting the duration to 1 because I don't want it to scroll in the
     // very first page load.  We don't always need this, but it ensures
     // the positioning is absolutely spot on when the pages loads.
     scrollOptions.duration = 1;
-    $.localScroll.hash(scrollOptions);
+    jq1.localScroll.hash(scrollOptions);
 
 });

@@ -4,9 +4,9 @@ body {
 	color: #CCCCCC;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
-	line-height: 1.5em;
+	line-height: 1.5em; 
 	background-color: #292836;
-	background-image: url(Image/templatemo_body.jpg);
+	background-image: url(images/templatemo_body.jpg);
 	background-repeat: repeat;
 }
 
@@ -18,14 +18,7 @@ img { border: none; }
 
 h1, h2, h3, h4, h5, h6 { color: #CCCC33; }
 h1 { font-size: 30px; font-weight: normal; margin: 0 0 20px 0; padding: 5px 0; }
-h2 {
-	font-size: 28px;
-	font-weight: normal;
-	padding-bottom: 20px;
-	margin: 0 0 20px 0;
-	font-weight: normal;
-	background: url(Image/templatemo_hr_divider.jpg) bottom repeat-x;
-}
+h2 { font-size: 28px; font-weight: normal; padding-bottom: 20px; margin: 0 0 20px 0; font-weight: normal; background: url(images/templatemo_hr_divider.jpg) bottom repeat-x; }
 h3 { font-size: 20px; margin: 0 0 15px 0; padding: 0; padding: 0; font-weight: normal;  }
 h4 { font-size: 16px; margin: 0 0 15px 0; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px 0; padding: 0; }
@@ -76,24 +69,12 @@ em { color: #fff; }
 .service_list { margin: 0 0 0 15px; padding: 0; list-style: none; }
 .service_list li { margin: 0; padding: 0; }
 .service_list li a { font-size: 13px; display: block; height: 25px; margin-bottom: 10px; padding-left: 40px; text-decoration: none; }
-	.service_list li .service_one {
-		background: url(Image/onebit_08.png) center left no-repeat;
-	}
-	.service_list li .service_two {
-		background: url(Image/onebit_11.png) center left no-repeat;
-	}
-	.service_list li .service_three {
-		background: url(Image/onebit_17.png) center left no-repeat;
-	}
-	.service_list li .service_four {
-		background: url(Image/onebit_21.png) center left no-repeat;
-	}
-	.service_list li .service_five {
-		background: url(Image/onebit_12.png) center left no-repeat;
-	}
-	.service_list li .service_six {
-		background: url(Image/onebit_19.png) center left no-repeat;
-	}
+.service_list li .service_one { background: url(images/onebit_08.png) center left no-repeat; }
+.service_list li .service_two { background: url(images/onebit_11.png) center left no-repeat; }
+.service_list li .service_three { background: url(images/onebit_17.png) center left no-repeat; }
+.service_list li .service_four { background: url(images/onebit_21.png) center left no-repeat; }
+.service_list li .service_five { background: url(images/onebit_12.png) center left no-repeat; }
+.service_list li .service_six { background: url(images/onebit_19.png) center left no-repeat; }
 
 #contact_form {  padding: 0; width: 280px; }
 #contact_form form { margin: 0px; padding: 0px; }

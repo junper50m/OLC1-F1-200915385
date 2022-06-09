@@ -24,9 +24,12 @@
     }
 
 #templatemo_wrapper {
-    width: 1600px;
+    width: 100%;
+    height: 600px;
     padding: 0 5px;
     margin: 0 5px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -40,7 +43,11 @@
     background: url(../Image/templatemo_menu_box.png)
 }
 
-
+#contenedor {
+    align-content: center !important;
+    display: flex;
+    justify-content: center;
+}
 
 #content {
     float: left;
@@ -48,7 +55,6 @@
     height: 526px;
     padding: 7px;
     margin: 0 1px;
-
     background: url(../Image/templatemo_content.png)
 }
 
